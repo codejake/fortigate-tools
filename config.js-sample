@@ -1,0 +1,3 @@
+export const fortigate_host = "my-fortigate-fqdn.example.com";
+export const fg_api_token = "s3cr3t50fmy0wn123";
+export const ls_api_key = "456s3cr3t50fmy0wn";

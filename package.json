@@ -1,0 +1,12 @@
+{
+  "name": "fortigate-tools",
+  "version": "0.1.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./fg-get-ratings.js \"https://www.example.com/destination?q=1.php\""
+  },
+  "author": "Jake Shaw <jake541@gmail.com>",
+  "license": "MIT",
+  "description": "A set of tools for Fortigate firewall administrators."
+}
