@@ -1,8 +1,8 @@
-# internet-filter-tools 🦹🏻
+# fortigate-tools 🦹🏻
 
-🖥️ Command-line tools that ease the day for administrators of Fortigate and 
-LightSpeed Filter Internet filters. I am slowly fixing up my private tools and
-adding them to this public repo.
+🖥️ Command-line tools that ease the day for administrators of Fortigate 
+firewalls. I am slowly fixing up my private tools and adding them to this 
+public repo.
 
 The Fortigate functionality is tested with FortiOS 7.2, which is the current 
 [Fortinet recommended release](https://community.fortinet.com/t5/FortiGate/Technical-Tip-Recommended-Release-for-FortiOS/ta-p/227178), but it will probably work on older and 
@@ -12,9 +12,7 @@ newer versions, as well.
 
 1. Clone this repo.
 2. If you want to use the Fortigate stuff, [get a Fortigate REST API token](https://registry.terraform.io/providers/fortinetdev/fortios/latest/docs/guides/fgt_token) from your Fortigate device.
-3. If you want to use the LightSpeed Filter stuff, get a LightSpeed token from 
-your cloud instance. (TBD)
-4. Copy `config.js-sample` to `config.js` and change the values to your
+3. Copy `config.js-sample` to `config.js` and change the values to your
    environment. 
    - You should use FQDNs along with a valid SSL certificate or you may run
      into certificate errors. FortiOS 7.0 and beyond [support Let's Encrypt
