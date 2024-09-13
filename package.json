@@ -1,7 +1,7 @@
 {
   "name": "fortigate-tools",
   "version": "0.1.0",
-  "main": "app.js",
+  "main": "fg-get-ratings.js",
   "type": "module",
   "scripts": {
     "test": "node ./fg-get-ratings.js \"https://www.example.com/destination?q=1.php\""
